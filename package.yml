@@ -1,12 +1,15 @@
 package:
   format-version: "1.0.0"
-  name: "replaceme"
+  name: "core_apps_pic32cxbz6_wbz6"
   type: "application"
   status: "beta"
   required: false
-  version: "1.0.0"
+  version: "3.0.0"
 
   dependencies:
     - name: "csp"
       type: "package"
-      version: "3.14.0"
+      version: "v3.20.0-E1"
+    - name: "core"
+      type: "package"
+      version: "v3.13.5"
