@@ -3,7 +3,7 @@
     <type>com.microchip.mplab.nbide.embedded.makeproject</type>
     <configuration>
         <data xmlns="http://www.netbeans.org/ns/make-project/1">
-            <name>wbz653_curiosity</name>
+            <name>nvm_fat_wbz653_curiosity</name>
             <creation-uuid>be9fd597-3165-4eda-a2bd-8a42402d1b59</creation-uuid>
             <make-project-type>0</make-project-type>
             <sourceEncoding>ISO-8859-1</sourceEncoding>
