@@ -60,8 +60,8 @@
 // Section: BSP Macros
 // *****************************************************************************
 // *****************************************************************************
-#define wbz653_curiosity
-#define BSP_NAME             "wbz653_curiosity"
+#define pic32wm_bz6_curiosity
+#define BSP_NAME             "pic32wm_bz6_curiosity"
 
 /*** LED Macros for USER_LED ***/
 #define USER_LED_Toggle() (GPIOB_REGS->GPIO_LATINV = (1UL<<7))
