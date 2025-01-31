@@ -55,11 +55,11 @@
 #include "peripheral/nvic/plib_nvic.h"
 #include "peripheral/cmcc/plib_cmcc.h"
 #include "bsp/bsp.h"
+#include "driver/i2c/drv_i2c.h"
 #include "system/int/sys_int.h"
 #include "system/cache/sys_cache.h"
 #include "osal/osal.h"
 #include "system/debug/sys_debug.h"
-#include "driver/i2c/drv_i2c.h"
 #include "app.h"
 
 
@@ -73,10 +73,10 @@ extern "C" {
 // DOM-IGNORE-END
 
 /* Device Information */
-#define DEVICE_NAME          "WBZ653"
+#define DEVICE_NAME          "PIC32WM_BZ6204"
 #define DEVICE_ARCH          "CORTEX-M4"
 #define DEVICE_FAMILY        "PIC32CX_BZ6"
-#define DEVICE_SERIES        "WBZ65"
+#define DEVICE_SERIES        "PIC32WM_BZ6"
 
 /* CPU clock frequency */
 #define CPU_CLOCK_FREQUENCY 128000000U
