@@ -1,15 +1,15 @@
 package:
   format-version: "1.0.0"
   name: "core_apps_pic32cxbz6_wmbz6"
-  version: "v3.0.1"
+  version: "v3.1.0"
   type: "application"
   status: "production"
   required: false
 
   dependencies:
+    - name: "bsp"
+      type: "package"
+      version: "v3.23.0"
     - name: "FreeRTOS-Kernel"
       type: "package"
       version: "V11.1.0"
-    - name: "core"
-      type: "package"
-      version: "v3.14.2"
